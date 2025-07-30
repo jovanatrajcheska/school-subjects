@@ -1,0 +1,169 @@
+﻿{
+  "teachers": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "firstName": "Emily",
+      "lastName": "Green",
+      "title": "BSc",
+      "email": "emily.green@elementary.edu"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "firstName": "Carlos",
+      "lastName": "Nguyen",
+      "title": "MSc",
+      "email": "carlos.nguyen@elementary.edu"
+    },
+    {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "firstName": "Priya",
+      "lastName": "Sharma",
+      "title": "PhD",
+      "email": "priya.sharma@elementary.edu"
+    }
+  ],
+  "departments": [
+    {
+      "id": "44444444-4444-4444-4444-444444444444",
+      "name": "Natural Sciences",
+      "headTeacherId": "11111111-1111-1111-1111-111111111111"
+    },
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "name": "Creative Arts",
+      "headTeacherId": "22222222-2222-2222-2222-222222222222"
+    },
+    {
+      "id": "66666666-6666-6666-6666-666666666666",
+      "name": "Mathematics",
+      "headTeacherId": "33333333-3333-3333-3333-333333333333"
+    }
+  ],
+  "authors": [
+    {
+      "id": "77777777-7777-7777-7777-777777777777",
+      "firstName": "Ava",
+      "lastName": "Baker"
+    },
+    {
+      "id": "88888888-8888-8888-8888-888888888888",
+      "firstName": "Liam",
+      "lastName": "Rivera"
+    }
+  ],
+  "literature": [
+    {
+      "id": "99999999-9999-9999-9999-999999999999",
+      "title": "Discovering Plants and Animals",
+      "isbn": "978-1234567890"
+    },
+    {
+      "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "title": "Art Around Us",
+      "isbn": "978-0987654321"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "name": "Elementary Science",
+      "description": "Exploring the world of plants, animals, and the environment.",
+      "weeklyClasses": 3,
+      "isMandatory": true,
+      "semester": "Fall",
+      "evaluationMethod": "Project",
+      "departmentName": "Natural Sciences"
+    },
+    {
+      "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+      "name": "Creative Drawing",
+      "description": "Learning drawing, painting, and creative expression.",
+      "weeklyClasses": 2,
+      "isMandatory": false,
+      "semester": "Spring",
+      "evaluationMethod": "Presentation",
+      "departmentName": "Creative Arts"
+    },
+    {
+      "id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+      "name": "Math Foundations",
+      "description": "Numbers, addition, subtraction, and problem-solving.",
+      "weeklyClasses": 4,
+      "isMandatory": true,
+      "semester": "Fall",
+      "evaluationMethod": "Exam",
+      "departmentName": "Mathematics"
+    }
+  ],
+  "subjectTeachers": [
+    {
+      "subjectId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "teacherId": "11111111-1111-1111-1111-111111111111"
+    },
+    {
+      "subjectId": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+      "teacherId": "22222222-2222-2222-2222-222222222222"
+    },
+    {
+      "subjectId": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+      "teacherId": "33333333-3333-3333-3333-333333333333"
+    }
+  ],
+  "subjectLiterature": [
+    {
+      "subjectId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "literatureId": "99999999-9999-9999-9999-999999999999"
+    },
+    {
+      "subjectId": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+      "literatureId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+    }
+  ],
+  "literatureAuthors": [
+    {
+      "literatureId": "99999999-9999-9999-9999-999999999999",
+      "authorId": "77777777-7777-7777-7777-777777777777"
+    },
+    {
+      "literatureId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "authorId": "88888888-8888-8888-8888-888888888888"
+    }
+  ],
+  "gradingCriteria": [
+    {
+      "id": "11111111-2222-3333-4444-555555555555",
+      "minScore": 90,
+      "maxScore": 100,
+      "gradeLabel": "A",
+      "subjectId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    },
+    {
+      "id": "22222222-3333-4444-5555-666666666666",
+      "minScore": 80,
+      "maxScore": 89,
+      "gradeLabel": "B",
+      "subjectId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    },
+    {
+      "id": "33333333-4444-5555-6666-777777777777",
+      "minScore": 70,
+      "maxScore": 79,
+      "gradeLabel": "C",
+      "subjectId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    },
+    {
+      "id": "44444444-5555-6666-7777-888888888888",
+      "minScore": 60,
+      "maxScore": 69,
+      "gradeLabel": "D",
+      "subjectId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    },
+    {
+      "id": "55555555-6666-7777-8888-999999999999",
+      "minScore": 0,
+      "maxScore": 59,
+      "gradeLabel": "F",
+      "subjectId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    }
+  ]
+}
